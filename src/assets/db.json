@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Пепперони",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0198bf57bc517218ab93c762f4b0193e.avif",
+    "types": [0, 1],
+    "sizes": [26, 30, 40],
+    "price": 450,
+    "category": 0,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "title": "Маргарита",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0198bf3d788b78d491891a6da5e94bf1.avif",
+    "types": [0],
+    "sizes": [26, 30],
+    "price": 520,
+    "category": 1,
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "title": "Гавайская",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/0198bf530345746e98039478001d5108.avif",
+    "types": [1],
+    "sizes": [30, 40],
+    "price": 610,
+    "category": 2,
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "title": "4 Сыра",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019a109fe01672189d029a725ba99705.avif",
+    "types": [0, 1],
+    "sizes": [26],
+    "price": 380,
+    "category": 0,
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "title": "Мясная",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019a897c5ea574b889475bd98412de7b.avif",
+    "types": [1],
+    "sizes": [30],
+    "price": 540,
+    "category": 1,
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "title": "Вегетарианская",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019a897c5ea574b889475bd98412de7b.avif",
+    "types": [0],
+    "sizes": [26, 30],
+    "price": 470,
+    "category": 2,
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "title": "Деревенская",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019a897c5ea574b889475bd98412de7b.avif",
+    "types": [0, 1],
+    "sizes": [40],
+    "price": 680,
+    "category": 3,
+    "rating": 5
+  },
+  {
+    "id": 8,
+    "title": "Острая",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019a897c5ea574b889475bd98412de7b.avif",
+    "types": [1],
+    "sizes": [26, 40],
+    "price": 590,
+    "category": 4,
+    "rating": 4
+  },
+  {
+    "id": 9,
+    "title": "С грибами",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019a897c5ea574b889475bd98412de7b.avif",
+    "types": [0],
+    "sizes": [30],
+    "price": 430,
+    "category": 0,
+    "rating": 3
+  },
+  {
+    "id": 10,
+    "title": "Барбекю",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019a897c5ea574b889475bd98412de7b.avif",
+    "types": [1],
+    "sizes": [26, 30, 40],
+    "price": 720,
+    "category": 5,
+    "rating": 5
+  },
+   {
+    "id": 11,
+    "title": "Цезарь",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019a897c5ea574b889475bd98412de7b.avif",
+    "types": [0, 1],
+    "sizes": [26, 30],
+    "price": 620,
+    "category": 3,
+    "rating": 4
+  },
+  {
+    "id": 12,
+    "title": "С морепродуктами",
+    "imageUrl": "https://media.dodostatic.net/image/r:584x584/019a897c5ea574b889475bd98412de7b.avif",
+    "types": [1],
+    "sizes": [30, 40],
+    "price": 850,
+    "category": 4,
+    "rating": 5
+  }
+]
