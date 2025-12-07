@@ -1,30 +1,54 @@
-@import '../variables';
+@use "../variables";
+@use "sass:color";
+@use "../libs/_normalize" as normalize;
+
 .categories {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   ul {
     display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 5px 0;
+    margin: 0;
+    list-style: none;
 
-    li {
-      background-color: #f9f9f9;
-      padding: 13px 30px;
-      border-radius: 30px;
-      margin-right: 10px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background-color 0.1s ease-in-out;
-      @include noselect();
+   
 
-      &:hover {
-        background-color: darken(#f9f9f9, 2%);
-      }
+  }
+   
+  li {
+    flex: 0 0 auto;
+    background-color: #f9f9f9;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.1s ease-in-out;
 
-      &:active {
-        background-color: darken(#f9f9f9, 5%);
-      }
-
-      &.active {
-        background-color: #282828;
-        color: #fff;
-      }
+    &:hover {
+      background-color: #e0e0e0;
     }
+
+    &:active {
+      background-color: #d0d0d0;
+    }
+
+    &.active {
+      background-color: #282828;
+      color: #fff;
+    }
+  }
+
+  @media (max-width: 1135px) {
+    margin-top: 30px;
   }
 }
