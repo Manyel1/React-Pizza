@@ -1,0 +1,54 @@
+  @use '../../scss/variables' as vars;
+  @use "../../scss/libs/_normalize" as normalize;
+@use "sass:color";
+
+.categories {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 5px 0;
+    margin: 0;
+    list-style: none;
+
+   
+
+  }
+   
+  li {
+    flex: 0 0 auto;
+    background-color: #f9f9f9;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.1s ease-in-out;
+
+    &:hover {
+      background-color: #e0e0e0;
+    }
+
+    &:active {
+      background-color: #d0d0d0;
+    }
+
+    &.active {
+      background-color: #282828;
+      color: #fff;
+    }
+  }
+
+  @media (max-width: 1135px) {
+    margin-top: 30px;
+  }
+}
