@@ -1,5 +1,6 @@
-@import './header';
-@import './button';
-@import './categories';
-@import './sort';
-@import './pizza-block';
+@use "../../Components/Header/header";
+@use "../../Components/Categories/Categories";
+@use "../../Components/Sort/sort";
+@use "../../Components/PizzaaBlock/pizza-block";
+
+@import "./button";

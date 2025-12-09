@@ -1,4 +1,5 @@
-  @use '../_variables' as vars;
+  @use '../../scss/variables' as vars;
+  
 
   .header {
     border-bottom: 1px solid vars.$gray-line;
@@ -13,7 +14,7 @@
 
        @media (max-width: 650px) {
       display: flex;
-      flex-direction: column;
+      flex-direction: column; 
 
     }
     }

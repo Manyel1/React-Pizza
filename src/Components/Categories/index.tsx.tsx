@@ -1,9 +1,6 @@
 import React from "react";
+import type { CategoriesProps } from "../../types/type";
 
-interface CategoriesProps {
-  value: number;
-  onClickChange: (index: number) => void; 
-}
 
 const Categories: React.FC<CategoriesProps> = ({ value, onClickChange }) => {
   const categories = [

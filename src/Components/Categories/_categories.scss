@@ -1,6 +1,6 @@
-@use "../variables";
+  @use '../../scss/variables' as vars;
+  @use "../../scss/libs/_normalize" as normalize;
 @use "sass:color";
-@use "../libs/_normalize" as normalize;
 
 .categories {
   width: 100%;

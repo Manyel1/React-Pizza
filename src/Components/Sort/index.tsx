@@ -1,14 +1,6 @@
 import React, { useState } from "react";
+import type { SortItem, SortProps } from "../../types/type";
 
-export interface SortItem {
-  name: string;
-  sortProperty: string;
-}
-
-interface SortProps {
-  value: SortItem;
-  onClickSort: (option: SortItem) => void; 
-}
 
 const Sort: React.FC<SortProps> = ({ value, onClickSort }) => {
   const [openSortPopup, setOpenSortPopup] = useState<boolean>(false);

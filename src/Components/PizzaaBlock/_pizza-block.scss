@@ -1,5 +1,5 @@
-@use "../variables";
-@use "../libs/_normalize" as normalize;
+  @use '../../scss/variables' as vars;
+  @use "../../scss/libs/_normalize" as normalize;
 .pizza-block {
   width: 280px;
   text-align: center;
